@@ -22,7 +22,7 @@ function getSocialIcon(title: string) {
 
 export function HeroSection() {
   return (
-    <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 mb-28">
+    <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 mb-28 max-w-4xl mx-auto">
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -101,7 +101,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-          className="text-gray-300 leading-relaxed text-lg max-w-2xl"
+          className="text-gray-300 leading-relaxed text-lg"
         >
           {heroSection.personalInfo.description}
         </motion.p>
