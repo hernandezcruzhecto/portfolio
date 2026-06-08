@@ -58,7 +58,7 @@ export const heroSection = {
 
 export const workExperience = [
   {
-    company: "Curie Health",
+    company: "Curai Health",
     position: "Senior Full-Stack Engineer",
     period: "Jul 2024 – Present",
     shortDesc:
